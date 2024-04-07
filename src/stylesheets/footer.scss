@@ -1,0 +1,42 @@
+//footer 
+
+footer {
+    background-color:$darkchocolate; //#F9FAFB;
+    margin-bottom:-16px;
+    padding:50px 0 170px 0;
+    display:flex;
+    gap:5px;
+    align-content:center;
+    flex-direction:row;
+    width:100%;
+    flex-wrap:wrap;
+    font-size:16px;
+    
+    }
+    
+    .ftrlist:nth-child(1) {
+        margin-left:16%;
+    }
+    
+    .ftrlist {
+        align-content:flex-start;
+        width:270px;
+        ul{
+            list-style-type:none;
+        }
+        li {
+            padding-top:5px;
+        }
+        b {
+            margin-left:70px;
+            color:$vanilla;
+        }
+        strong {
+            color:$darkchocolate;
+        }
+        a {
+            text-decoration:none;
+            color:$vanilla;
+        }
+    }
+    
