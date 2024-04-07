@@ -1,0 +1,122 @@
+//header 
+
+header{
+    padding:0px;
+    margin-top:-12px;
+}
+
+.Jumbotron {
+   //background-color:#7ADFFF;
+   background-image:url("/images/Detectiveshadow.jpg");
+   background-color:$darkchocolate;
+    width:100%;
+    height:100%;
+    margin:0;
+    //background-image:url("/images/prple_bg.jpg");
+    box-shadow: 0 6px 5px -8px black;
+}
+
+nav {
+    display:flex;
+    flex-direction:row;
+    height:fit-content;
+    }
+    
+    nav > ul {
+        list-style:none;
+        display:flex;
+        flex-direction:row;
+        gap:0.1px;
+        padding-top:0px;
+        padding-left:1vw;
+        width:95%;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+        
+    }
+    
+    nav > ul > li:nth-child(1) {
+        flex-basis:15px;
+        border:hidden;
+        padding-top:15px;
+        color:$peanutbutter;
+    }
+    
+    nav > ul > li:nth-child(1):hover {
+        color:$hazelnut;
+    }
+
+    nav > ul > li:nth-last-child(6) {
+        margin-left:auto;
+    }
+    
+    nav > ul > li {
+        display:flex;
+        flex-basis:70px;
+        border-style:solid;
+        border-bottom-width:2px;
+        border-color:$peanutbutter;
+        margin:0;
+        height:fit-content;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        align-self:center;//?
+        font-size:17px;
+        padding:10px;
+        padding-top:10px;
+    }
+    
+    nav > ul > li:hover {
+        border-color:$hazelnut;
+    }
+
+    nav > ul > li > a, nav > ul > li > a:visited {
+        text-decoration:none;
+        align-self:center;
+        color:$peanutbutter;
+        display:block;
+        width:100%;
+        height:100%;
+    }
+    
+    nav > ul > li > a:hover {
+        color:$hazelnut;
+    }
+    
+    #headlogo {
+        font-size:25px;
+    }
+
+.jparagraph {
+    height:435px;
+    color:white;
+    text-align:center;
+    align-content:center;
+    padding-left:300px;
+    padding-right:300px;
+}
+
+.jparagraph > p {
+    font-size:20px;
+    background-color:$transparentvanilla;
+}
+
+.belowjumbo {
+    display:flex;
+    background-color:$vanilla;
+    text-align:center;
+    padding-left:200px;
+    padding-right:100px;
+    gap:10px;
+    align-items:center;
+}
+
+.belowjumbo > #New {
+    background-color:$hazelnut;
+    color:$vanilla;
+    align-content:center;
+    height:30px;
+    border-radius:30%;
+    width:50px;
+}
